@@ -21,9 +21,14 @@ The first page of the website has a header and two buttons.
 ![start](assets/startpage.png)
 The header is designed to seek the attention of the user.
 Once clicked the ```Start Quiz``` button takes users to the 1st of 8 questions. This button also starts the 86 second timer. The timer goes down by the second unless the user gets it wrong then it skips 8 seconds. 
+
+
 ![time](assets/timeleft.png)
+
+
+
 The ```High Score``` buttong allows users to see the scores of recent users. 
-If you want to challenge yourself and set a goal score before taking the quiz , you can click on the ```High Score ``` button to see what other users have gotten. 
+If you want to challenge yourself and set a goal score before taking the quiz , you can click on the ```High Score ``` button to see what other users have scored. 
 
 ![start](assets/startpage.png)
 
@@ -54,7 +59,7 @@ After the user answers all 8 questions , they will be given their score out of 8
 The final page shows initials and scores of users who have taken the quiz. It also allows users to Play Again or Clear the High Scores.
 The ```Play Again``` buttton takes you back to the original homescreen to start the quiz over.
 The ```Clear Highscore``` button clear all the saved scored. 
-![finalpage](assets/final/png)
+![finalpage](assets/final.png)
 
 
 
