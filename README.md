@@ -2,10 +2,10 @@
 
 ***Description***
 
-This website was designed to test the knowledge of a beginning Web Developer. 
+This website was designed to test the knowledge of a beginning Web Developers. 
 
 
-It is set up in a multiple choice  quiz form. Users get 86 seconds to answer 8 basic developer  questions. After 
+It is set up in a multiple choice  quiz form. Users get 86 seconds to answer 8 basic developer  questions. 
 
 
 
@@ -34,7 +34,7 @@ If you want to challenge yourself and set a goal score before taking the quiz , 
 
 
 
-The questions are at the top in red letters. Below the question there is 4 yellow buttons. Each button has possible answers inside. Once you select your answer it takes you to the next question whether it was right or wrong. It will alert you one of the following depending on your accuracy.
+The questions are at the top in red letters. Below the question there are 4 yellow buttons. Each button has possible answers inside. Once you select your answer it takes you to the next question whether it was right or wrong. It will alert you one of the following depending on your accuracy.
 
 ![alert](assets/alert1.png)
 ![alert](assets/alert2.png)
@@ -61,5 +61,9 @@ The ```Play Again``` buttton takes you back to the original homescreen to start 
 The ```Clear Highscore``` button clear all the saved scored. 
 ![finalpage](assets/final.png)
 
+
+***Technology***
+
+```HTML```   ```CSS``` ```JavaScript```
 
 

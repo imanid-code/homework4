@@ -30,6 +30,7 @@ var quizBody = document.getElementById("quiz");
 
       var hScore = document.getElementById("hscore");
 
+
       var buttonA = document.getElementById("a");
 
       var buttonB = document.getElementById("b");
@@ -166,6 +167,7 @@ var quizBody = document.getElementById("quiz");
           saveHighscores.push(currentHighscore);
           localStorage.setItem("saveHighscores", JSON.stringify(saveHighscores));
           generateHighscores();
+    
         }
       });
 
@@ -191,10 +193,11 @@ var quizBody = document.getElementById("quiz");
        secondPage.style.display = "block";
        gameoverBtn.style.display = "flex";
        startPage.style.display = "none";
-       header.style.display = "none";
+       header.style.display = "flex";
+       
        
 
-        generateHighscores();
+        generateHighscores()
       }
 
       function restart() {
@@ -205,16 +208,20 @@ var quizBody = document.getElementById("quiz");
       }
 
       function replay() {
-        hsContainer.style.display = "none";
+        hsContainer.style.display = "block";
         gameoverDiv.style.display = "none";
         startPage.style.display = "flex";
         startquizDiv.style.display = "flex";
-        
+        gameoverBtn.style.display = "none";
+        header.style.display ="none";
+        secondPage.style.display = "flex"; 
         timeLeft = 86;
         score = 0
         currentQuestionIndex = 0;
+       
       }
 
+    
       function checkAnswer(answer) {
         correct = quizQuestions[currentQuestionIndex].correctAnswer;
         if (answer === correct && currentQuestionIndex !== finalQuestion) {
